@@ -1,7 +1,7 @@
 # Marvel-ReactNative
 An IOS app built using React Native for learning.
 
-![Login](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.00.png)
+![Login](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.00.png =100x20)
 ![ComicList](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.08.png)
 ![ComicDetail](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.22.png)
 
