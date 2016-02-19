@@ -142,6 +142,7 @@ var styles = StyleSheet.create({
   },
   listView: {
     paddingTop: 64,
+    marginBottom: 49,
 
   },
 });

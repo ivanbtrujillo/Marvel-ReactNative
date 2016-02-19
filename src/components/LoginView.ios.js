@@ -10,7 +10,6 @@ var {
     TextInput,
     TouchableHighlight,
     View,
-    AlertIOS,
 } = React;
 
 var ComicList = require("./ComicListView");
@@ -29,11 +28,11 @@ class LoginView extends Component {
 
     render() {
         return (
-            <Image source={{uri: 'http://i.kinja-img.com/gawker-media/image/upload/s--1Bavm6Lp--/c_scale,fl_progressive,q_80,w_800/1465410572645258056.jpg'}} style={styles.container}>
+            <Image source={{uri: 'https://pixabay.com/static/uploads/photo/2015/03/11/01/33/hulk-667988_960_720.jpg'}} style={styles.container}>
                 <Text style={styles.title}>
                     Marvel React Native
                 </Text>
-                <View>
+                <View style={styles.form}>
                     <TextInput
                         placeholder="Your name"
                         placeholderTextColor="#FFFFFF"
@@ -87,15 +86,18 @@ var styles = StyleSheet.create({
         width: null,
         height: null,
         padding: 30,
-        marginTop: 65,
         alignItems: "stretch"
     },
     title: {
-        fontSize: 25,
+        marginTop:20,
+        fontSize: 35,
         marginBottom: 10,
         backgroundColor: 'rgba(52,52,52,0)',
         textAlign: 'center',
         color:'#FFFFFF'
+    },
+    form: {
+      marginTop: 50,
     },
     formInput: {
         height: 36,
@@ -106,7 +108,7 @@ var styles = StyleSheet.create({
         flex: 1,
         fontSize: 18,
         borderWidth: 1,
-        borderColor: "#555555",
+        borderColor: "#007AFF",
         borderRadius: 8,
         color: "#FFFFFF"
     },

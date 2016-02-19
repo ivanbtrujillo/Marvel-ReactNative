@@ -24,7 +24,7 @@ class Tabs extends Component {
 
   render(){
     return(
-      <TabBarIOS selectedTab={this.state.selectedTab}>
+      <TabBarIOS selectedTab={this.state.selectedTab} style={{backgroundColor: '#FFFFFF'}}>
           <Icon.TabBarItem
             selected={this.state.selectedTab === 'secure'}
             iconName="ios-book-outline"

@@ -6,12 +6,10 @@
 import React, {
   AppRegistry,
   Component,
-  NavigatorIOS,
   TouchableHighlight,
   Navigator,
   StyleSheet,
   Text,
-  View,
 } from 'react-native';
 
 var NavigationBarRouteMapper = {
@@ -34,6 +32,9 @@ var NavigationBarRouteMapper = {
     return null;
   },
   Title: function(route, navigator, index, navState){
+    if(route.name == 'Login'){
+      return null;
+    }
     return(
       <Text style={{marginTop: 10, color:'#007AFF' }}>
         {route.name}
