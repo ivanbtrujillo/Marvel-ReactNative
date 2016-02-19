@@ -1,9 +1,8 @@
 # Marvel-ReactNative
 An IOS app built using React Native for learning.
-<img src="https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.00.png" width="48">
-![Login](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.00.png)
-![ComicList](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.08.png)
-![ComicDetail](https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.22.png)
+<img src="https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.00.png" width="200" height="400">
+<img src="https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.08.png" width="200" height="400">
+<img src="https://dl.dropboxusercontent.com/u/16022161/Captura%20de%20pantalla%202016-02-19%20a%20las%2014.11.22.png" width="200" height="400">
 
 ## Purpose
 I've built this app after i started to learn react-native. This app it's just to learning react-native and at this moment it's only for IOS. The main objective is test many components.
